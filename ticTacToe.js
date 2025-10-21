@@ -135,7 +135,7 @@ function checkWinner() {
                 winnerContainer.classList.add("blueGradient");
             }
             setTimeout(() => {
-                window.location.href = "./start.html"
+                window.location.href = "./index.html"
             }, 1500);
             vidtoryAudio.play(); 
         }, 1000);
@@ -150,7 +150,7 @@ function checkWinner() {
             drawContainer.classList.add("darkGradient");
 
             setTimeout(() => {
-                window.location.href = "./start.html"
+                window.location.href = "./index.html"
             }, 1000);
         }, 1000);
         return;
